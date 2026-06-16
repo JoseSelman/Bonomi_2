@@ -114,3 +114,30 @@ fatal: repository 'https://github.com/joseselman/Bonomi_2.git/' not found
 ```
 
 Conclusion: los commits fueron generados, pero no se pudieron subir porque el repositorio remoto `joseselman/Bonomi_2` no existe o la sesion actual de Git no tiene acceso.
+
+## Ejecucion final en GitHub
+
+Se creo correctamente el repositorio:
+
+```text
+https://github.com/JoseSelman/Bonomi_2
+```
+
+Luego se regenero el historial completo en una copia temporal normal del proyecto y se empujaron las ramas `main` y `develop`.
+
+Historial final:
+
+```text
+43ebdf2 merge: integrate development branch
+9a5a8a8 docs: add verification evidence and project documentation
+141e70c test: add unit and acceptance tests
+a3411d4 feat: implement alarm controller state machine
+7650dab chore: create PlatformIO project structure
+```
+
+Ramas remotas creadas:
+
+```text
+origin/main
+origin/develop
+```
