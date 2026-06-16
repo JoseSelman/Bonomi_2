@@ -141,3 +141,37 @@ Ramas remotas creadas:
 origin/main
 origin/develop
 ```
+
+## Reejecucion completa
+
+Fecha: 2026-06-16
+
+Se ejecuto todo nuevamente sobre una copia temporal limpia del proyecto:
+
+```text
+C:\Users\jyoun\AppData\Local\Temp\Bonomi_2_rerun_full
+```
+
+Resultados:
+
+```text
+pio test -e native
+14 test cases: 14 succeeded
+native:test_acceptance PASSED
+native:test_alarm_controller PASSED
+
+pio check -e native
+cppcheck PASSED
+No defects found
+
+pre-commit run --all-files
+clang-format Passed
+cppcheck Passed
+
+doxygen Doxyfile
+PASSED
+
+git ls-remote --heads https://github.com/JoseSelman/Bonomi_2.git
+refs/heads/develop: 8ad5a604ecc04f969f4d084baff36afad09c62c9
+refs/heads/main: 104a75c6c9f0ed5d7d29dd9c8d62a0d297184873
+```
