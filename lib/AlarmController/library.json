@@ -1,0 +1,14 @@
+{
+  "name": "AlarmController",
+  "version": "1.0.0",
+  "description": "Logic for a timed-zone embedded alarm controller.",
+  "keywords": ["alarm", "embedded", "verification", "validation"],
+  "authors": [
+    {
+      "name": "Actividad integradora VVS"
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*"
+}

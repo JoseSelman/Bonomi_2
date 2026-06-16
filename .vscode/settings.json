@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "C_Cpp.clang_format_style": "file",
+  "C_Cpp.codeAnalysis.clangTidy.enabled": false,
+  "files.associations": {
+    "*.h": "cpp"
+  }
+}
